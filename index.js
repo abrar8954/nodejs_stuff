@@ -31,9 +31,9 @@ admin.initializeApp({
 
 app.post('/send-noti',(req,res)=>{
     console.log(req.body)
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('HI there');
+    // res.statusCode = 200;
+    // res.setHeader('Content-Type', 'text/plain');
+    // res.end('HI there');
    const message = {
     notification:{
         title:"new ad",
